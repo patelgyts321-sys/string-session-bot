@@ -1,3 +1,9 @@
+from datetime import datetime
+import time
+
+print("UTC:", datetime.utcnow())
+print("Timestamp:", time.time())
+
 import env
 import logging
 from pyrogram import Client, idle
